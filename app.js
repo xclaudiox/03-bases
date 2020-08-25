@@ -12,7 +12,7 @@ switch (comando) {
         break;
     case 'crear':
         crearArchivo(argv.b, argv.l)
-            .then(archivo => console.log(`Archivo creado ${archivo}`.green))
+            .then(archivo => console.log(`Archivoo creado ${archivo}`.green))
             .catch(e => console.log(e));
         break;
     default:
